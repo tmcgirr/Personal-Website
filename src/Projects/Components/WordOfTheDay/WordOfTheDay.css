@@ -1,0 +1,33 @@
+.WordOfTheDay {
+  text-align: left;
+  font-size: 20px;
+}
+
+.word {
+  font-size: 40px;
+  color: rgb(0, 0, 170);
+}
+
+.definitionBox {
+  padding: 10px;
+}
+.definitionTitle {
+  font-weight: 700;
+}
+
+.definition {
+  font-size: 20px;
+  padding: 5px;
+}
+
+.pronunciationBox {
+  padding: 10px;
+}
+.pronunciationTitle {
+  font-weight: 700;
+}
+
+.pronunciation {
+  font-size: 20px;
+  padding: 5px;
+}

@@ -50,10 +50,9 @@ function GoogleCalendar() {
 
                 // Check for events. One event or more will display
                 if (events.length > 0) {
-                  const eventListArray = events.map(function (event) {
+                  const eventListArray = events.map(function(event) {
                     let summary = event["summary"];
                     let timeStart = event.start["dateTime"];
-                    let timeEnd = event.end["dateTime"];
 
                     let getLocalDate = (date) => {
                       return new Date(date).toLocaleDateString();
@@ -101,7 +100,7 @@ function GoogleCalendar() {
                 }
               });
           },
-          function (error) {
+          function(error) {
             //Log error to console. Update state to "Unable to retrieve..."
             console.log(error);
             setEventsList("Unable to retrieve events");

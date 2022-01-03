@@ -51,14 +51,14 @@ function Projects() {
               </div>
             </div>
 
-//             <div className="panel-container todoBackground">
-//               <div className="panel-header">ToDo</div>
-//               <div className="panel-body">
-//                 <div>
-//                   <Todolist />
-//                 </div>
-//               </div>
-//             </div>
+    {/* <div className="panel-container todoBackground">
+              <div className="panel-header">ToDo</div>
+              <div className="panel-body">
+                <div>
+                  <Todolist />
+                </div>
+              </div>
+            </div> */}
 
             <div className="panel-container todoBackground">
               <div className="panel-header">Class Project 1</div>

@@ -6,7 +6,7 @@ import {
   EDIT_TODO,
 } from "../constants/actions";
 
-try {
+
 const reducer = (state, action) => {
   switch (action.type) {
     case ADD_TODO:
@@ -23,9 +23,7 @@ const reducer = (state, action) => {
       );
     default:
       return state;
-  }
-} catch (e) {
-  console.log(e)}
+  } 
 };
 
 export default reducer;

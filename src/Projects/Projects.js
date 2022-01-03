@@ -3,7 +3,7 @@ import "./Projects.css";
 import Weather from "./Components/WeatherComponent/weather";
 import Clock from "./Components/ClockComponent/Clock";
 import Greeting from "./Components/GreetingComponent/Greeting";
-import Todolist from "./Components/Todolist/src/components/App";
+//import Todolist from "./Components/Todolist/src/components/App";
 import WordOfTheDay from "./Components/WordOfTheDay/WordOfTheDay";
 import GoogleCalendar from "./Components/GoogleCalendar/GoogleCalendar";
 import Forkify from "./Components/Forkify/Forkify";
@@ -51,14 +51,14 @@ function Projects() {
               </div>
             </div>
 
-            <div className="panel-container todoBackground">
-              <div className="panel-header">ToDo</div>
-              <div className="panel-body">
-                <div>
-                  <Todolist />
-                </div>
-              </div>
-            </div>
+//             <div className="panel-container todoBackground">
+//               <div className="panel-header">ToDo</div>
+//               <div className="panel-body">
+//                 <div>
+//                   <Todolist />
+//                 </div>
+//               </div>
+//             </div>
 
             <div className="panel-container todoBackground">
               <div className="panel-header">Class Project 1</div>

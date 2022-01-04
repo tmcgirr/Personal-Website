@@ -659,6 +659,38 @@ strong {
   width: 100%;
 }
 
+.status-message {
+  display: inline-block;
+
+  text-decoration: none;
+  font-size: 2rem;
+  font-weight: 600;
+  padding: 1.6rem 3.2rem;
+  border-radius: 9px;
+
+  /* Only necessary for .btn */
+  border: none;
+  cursor: pointer;
+  font-family: inherit;
+
+  /* Put transition on original "state" */
+  /* transition: background-color 0.3s; */
+  transition: all 0.3s;
+
+  background-color: rgb(215, 35, 35);
+  color: #fdf2e9;
+  align-self: end;
+  padding: 1.2rem;
+}
+
+.success {
+  background-color: green;
+}
+
+.failure {
+  background-color: red;
+}
+
 /**************************/
 /* FOOTER */
 /**************************/

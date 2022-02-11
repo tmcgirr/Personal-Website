@@ -2,7 +2,7 @@ import React from "react";
 import "./Projects.css";
 import Weather from "./Components/WeatherComponent/weather";
 import Clock from "./Components/ClockComponent/Clock";
-//import Greeting from "./Components/GreetingComponent/Greeting";
+import Greeting from "./Components/GreetingComponent/Greeting";
 //import Todolist from "./Components/Todolist/src/components/App";
 import WordOfTheDay from "./Components/WordOfTheDay/WordOfTheDay";
 import GoogleCalendar from "./Components/GoogleCalendar/GoogleCalendar";

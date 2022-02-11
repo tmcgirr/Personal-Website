@@ -28,7 +28,7 @@ function About() {
             Full-Stack Engineer Path provided a solid foundation for developing
             applications from the wireframing and planning, to writing the HTML
             and styling with CSS, adding functionality with React and
-            implementing a database with Express and PsotgreSQL.
+            implementing a database with Express and PostgreSQL.
             <br />
             <br />
             Here are a few of the skills I've attained so far:

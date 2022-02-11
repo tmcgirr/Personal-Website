@@ -9,7 +9,7 @@
   display: flex;
   flex-direction: column;
   overflow: auto;
-  background-image: linear-gradient(rgb(48, 48, 48), rgb(192, 192, 192));
+/*   background-image: linear-gradient(rgb(48, 48, 48), rgb(192, 192, 192)); */
 }
 
 .greeting-container {
